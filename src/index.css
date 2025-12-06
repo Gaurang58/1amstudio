@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-black text-white font-sans;
+}
+
+/* Neon-ish frame */
+.neon-frame {
+  box-shadow: 0 0 40px 10px rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  
+}
